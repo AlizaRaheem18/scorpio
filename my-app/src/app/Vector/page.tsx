@@ -7,9 +7,9 @@ const Vector = () => {
   const [zoom, setZoom] = useState(1);
 
   const items = [
-    { img: "/vectorart.jpg" },
-    { img: "/vector.jpg" },
-    { img: "/vectoraer.jpg" },
+    { img: "/vectorart.JPG" },
+    { img: "/vector.JPG" },
+    { img: "/vectoraer.JPG" },
   ];
 
   const openModal = (img: string) => {

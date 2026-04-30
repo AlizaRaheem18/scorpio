@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { IoMail } from "react-icons/io5";
 
 export default function Hero() {
   return (
@@ -10,26 +11,20 @@ export default function Hero() {
       style={{ backgroundImage: "url('/assets/background.jpg')" }}
       aria-label="Embroidery Digitizing Services"
     >
-      {/* EMAIL BAR (Navbar ke neeche) */}
-      <div className=" text-white text-xs md:text-sm py-2 px-5 flex justify-center md:justify-end items-center gap-2">
-        
-        <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=scorpiodigitizing@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 hover:opacity-80 transition"
-        >
-          <Image
-            src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
-            alt="gmail"
-            width={20}
-            height={20}
-            className="w-4 h-4 md:w-5 md:h-5"
-          />
-          <span>scorpiodigitizing@gmail.com</span>
-        </a>
+ {/* EMAIL BAR (Navbar ke neeche) */}
+<div className="text-white text-xs md:text-sm py-2 px-5 flex justify-center md:justify-end items-center gap-2">
+  
+  <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=scorpiodigitizing@gmail.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 hover:opacity-80 transition"
+  >
+    <IoMail className="w-4 h-4 md:w-5 md:h-5 text-red-500" />
+    <span>scorpiodigitizing@gmail.com</span>
+  </a>
 
-      </div>
+</div>
 
       {/* Overlay */}
       <div className="bg-[#05051a]/80">

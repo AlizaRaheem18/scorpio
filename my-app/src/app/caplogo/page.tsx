@@ -11,7 +11,7 @@ const Caplogo = () => {
     { img: "/hhh.JPG" },
     { img: "/Roughneck.JPG" },
     { img: "/Tiger Face.JPG" },
-    { img: "/scroogr.JPG" },
+    { img: "/scroogr.jpg" },
     { img: "/HayloftSEW.jpg" },
     { img: "/Monkssew.jpg" },
     { img: "/skulljBsew.JPG" },
