@@ -15,7 +15,7 @@ export default function Hero() {
 <div className="text-white text-xs md:text-sm py-2 px-5 flex justify-center md:justify-end items-center gap-2">
   
   <a
-    href="https://mail.google.com/mail/?view=cm&fs=1&to=scorpiodigitizing@gmail.com"
+    href="mailto:scorpiodigitizing@gmail.com?subject=Embroidery Order Inquiry""
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center gap-2 hover:opacity-80 transition"
