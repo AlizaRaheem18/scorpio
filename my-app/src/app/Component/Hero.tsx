@@ -11,19 +11,16 @@ export default function Hero() {
       style={{ backgroundImage: "url('/assets/background.jpg')" }}
       aria-label="Embroidery Digitizing Services"
     >
- {/* EMAIL BAR (Navbar ke neeche) */}
+
+
 <div className="text-white text-xs md:text-sm py-2 px-5 flex justify-center md:justify-end items-center gap-2">
-  
-  <a
-    href="mailto:scorpiodigitizing@gmail.com?subject=Embroidery Order Inquiry""
-    target="_blank"
-    rel="noopener noreferrer"
+  <a 
+    href="mailto:scorpiodigitizing@gmail.com?subject=Embroidery Order Inquiry"
     className="flex items-center gap-2 hover:opacity-80 transition"
   >
     <IoMail className="w-4 h-4 md:w-5 md:h-5 text-red-500" />
     <span>scorpiodigitizing@gmail.com</span>
   </a>
-
 </div>
 
       {/* Overlay */}
