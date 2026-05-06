@@ -11,6 +11,7 @@ export default function Hero() {
       style={{ backgroundImage: "url('/assets/background.jpg')" }}
       aria-label="Embroidery Digitizing Services"
     >
+
 <div className="text-white text-xs md:text-sm py-2 px-5 flex justify-center md:justify-end items-center gap-2">
   <a 
     href="mailto:scorpiodigitizing@gmail.com?subject=Embroidery Order Inquiry"
