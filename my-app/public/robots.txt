@@ -6,4 +6,4 @@ Allow: /
 Host: https://scorpiodigitizing.com
 
 # Sitemaps
-Sitemap: https://scorpiodigitizing.com/sitemap.xml
+Sitemap: Sitemap: https://scorpiodigitizing.com/sitemap-0.xml
