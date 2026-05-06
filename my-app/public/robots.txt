@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://scorpiodigitizing.com
+
+# Sitemaps
+Sitemap: https://scorpiodigitizing.com/sitemap.xml
