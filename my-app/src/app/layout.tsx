@@ -1,5 +1,3 @@
-
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -13,6 +11,7 @@ export const metadata: Metadata = {
     default: "Scorpio Digitizing | Embroidery Digitizing & Vector Art Services",
     template: "%s | Scorpio Digitizing",
   },
+
   description:
     "Scorpio Digitizing provides professional embroidery digitizing, cap logo digitizing, jacket back digitizing, and vector art services with fast turnaround and premium quality worldwide.",
 
@@ -30,17 +29,21 @@ export const metadata: Metadata = {
   creator: "Scorpio Digitizing",
   publisher: "Scorpio Digitizing",
 
-  metadataBase: new URL("https://yourdomain.com"), // ⚠️ apna domain yahan daalo
+  metadataBase: new URL("https://scorpiodigitizing.com"),
+
+  icons: {
+    icon: "/favicon.ico",
+  },
 
   openGraph: {
     title: "Scorpio Digitizing - Embroidery Digitizing Services",
     description:
       "High-quality embroidery digitizing and vector art services with fast turnaround and premium results.",
-    url: "https://yourdomain.com",
+    url: "https://scorpiodigitizing.com",
     siteName: "Scorpio Digitizing",
     images: [
       {
-        url: "/og-image.jpg", // ⚠️ ek image public folder me daalo
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Scorpio Digitizing Services",
@@ -55,7 +58,7 @@ export const metadata: Metadata = {
     title: "Scorpio Digitizing",
     description:
       "Professional embroidery digitizing & vector art services.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.png"],
   },
 
   robots: {
@@ -72,7 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} flex flex-col min-h-screen`}>
-
+        
         {/* Navbar */}
         <div className="sticky top-0 z-50 bg-white/70 backdrop-blur-md">
           <Navbar />
