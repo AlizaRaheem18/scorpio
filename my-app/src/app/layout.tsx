@@ -7,6 +7,13 @@ import Footer from "./Component/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://scorpiodigitizing.com"),
+  
+  // Canonical URL yahan add kiya gaya hai
+  alternates: {
+    canonical: "/",
+  },
+
   title: {
     default: "Scorpio Digitizing | Embroidery Digitizing & Vector Art Services",
     template: "%s | Scorpio Digitizing",
@@ -28,8 +35,6 @@ export const metadata: Metadata = {
 
   creator: "Scorpio Digitizing",
   publisher: "Scorpio Digitizing",
-
-  metadataBase: new URL("https://scorpiodigitizing.com"),
 
   icons: {
     icon: "/favicon.ico",
